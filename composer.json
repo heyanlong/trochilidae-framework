@@ -1,0 +1,23 @@
+{
+  "name": "heyanlong/trochilidae-framework",
+  "authors": [
+    {
+      "name": "Yanlong He",
+      "email": "yanlong.hee@gmail.com"
+    }
+  ],
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "psr/container": "^1.0",
+    "psr/http-server-handler": "^1.0",
+    "doctrine/orm": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trochilidae\\": "src/"
+    },
+    "files": [
+      "src/func/helpers.php"
+    ]
+  }
+}
